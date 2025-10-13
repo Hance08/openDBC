@@ -11,7 +11,7 @@ signals_of_interest = [
     "BMS_maxDischargePower", "BMS_maxRegenPower"  # BMS 功率 (ID 594 - 0x252)
 ]
 
-log_file = "tesla-model3-battery-only.log.log"
+log_file = "ColdBattCharge.csv"
 
 for msg in db.messages:
     print(hex(msg.frame_id), msg.name)
